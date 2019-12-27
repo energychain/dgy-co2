@@ -1,0 +1,33 @@
+{
+  "name": "dgy-co2",
+  "version": "1.0.0",
+  "description": "Blockchain Oracle of CO2 Footprint (Discovergy Meter API)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "dgy-co2": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/energychain/dgy-co2.git"
+  },
+  "keywords": [
+    "discovergy",
+    "blockchain",
+    "oracle",
+    "co2"
+  ],
+  "author": "STROMDAO GmbH <kontakt@stromdao.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/energychain/dgy-co2/issues"
+  },
+  "homepage": "https://github.com/energychain/dgy-co2#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "gsi-discovergy": "^1.0.11",
+    "request": "^2.88.0"
+  }
+}
